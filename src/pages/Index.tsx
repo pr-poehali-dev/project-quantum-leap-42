@@ -210,6 +210,12 @@ export default function Index() {
         {/* Navigation links in top right corner */}
         <div className="absolute top-6 right-6 z-10 flex space-x-3">
           <a
+            href="tel:+79143219069"
+            className="inline-flex h-9 items-center justify-center rounded-md border border-white bg-transparent px-3 text-sm text-white transition-colors hover:bg-white hover:text-black"
+          >
+            +7 914 321-90-69
+          </a>
+          <a
             href="https://max.ru/join/Kq41_Ep3btEFUvdzZPjg02T2OTuX8r_UKYIxVBCoc28"
             target="_blank"
             rel="noopener noreferrer"
