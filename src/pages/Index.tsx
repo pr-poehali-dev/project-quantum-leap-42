@@ -209,6 +209,14 @@ export default function Index() {
       <section className="relative w-full overflow-hidden bg-black" style={heroStyle}>
         {/* Navigation links in top right corner */}
         <div className="absolute top-6 right-6 z-10 flex space-x-3">
+          <a
+            href="https://t.me/molniaavto88"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-9 items-center justify-center rounded-md border border-white bg-transparent px-3 text-sm text-white transition-colors hover:bg-white hover:text-black"
+          >
+            Telegram
+          </a>
           <Button
             onClick={scrollToContact}
             variant="outline"
